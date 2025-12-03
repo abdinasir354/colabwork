@@ -1,0 +1,53 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.Hero{
+    background: url("https://i.pinimg.com/736x/a5/9a/b2/a59ab204158da7f5718044f839abc613.jpg");
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.Hero h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.line{
+    background-color: blueviolet;
+    width: 250px;
+    height: 7px;
+    margin-bottom: 10px;
+}
+
+.Hero h5{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Hero p{
+    width: 750px;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Hero button{
+    background:transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border:2px solid white;
+    color: white;
+}
