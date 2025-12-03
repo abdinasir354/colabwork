@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.her {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+ 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  height: 60px;
+  padding: 0 30px;
+  align-items: center;
+  padding: 50px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  font-size: 1rem;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+ 
+}
+ul li a{
+   text-decoration: none;
+  color: black;
+}
+ul li i{
+  color: rgb(100, 103, 197);
+}
+
+.icons i {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: rgb(100, 103, 197);
+}
+
+/* Hero Section */
+.hero {
+   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 96px;
+}
+
+.left h1,
+.right h1 {
+  font-size: 5.5rem;
+  color: rgb(178, 180, 244);
+  margin-top: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.text {
+  margin-top: 80px;
+  max-width: 500px;
+}
+
+.text h1 {
+  color: rgb(100, 103, 197);
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  /* color: gray; */
+}
+
+.btn {
+  border: 1px solid rgb(100, 103, 197);
+  color: rgb(100, 103, 197);
+  border-radius: 25px;
+  padding: 12px 25px;
+  background: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgb(100, 103, 197);
+  color: white;
+}
+
+.d-section {
+ 
+    padding: 60px 120px;
+    
+}
+.d-section h1{
+    text-align: center;
+}
+.d-section p{
+  font-weight: 400;   
+  font-size: 14px;     
+  line-height: 1.6;    
+  max-width: 600px;    
+  padding: 0 96px;
+}
+.d-section p i{
+  font-size: 2rem;
+}
+.mar{
+  font-size: 1.5rem;
+}
+.pl{
+  margin-left: 80px;
+}
+.hrb{
+  width: 150px;
+  margin-left: 140px;
+
+  font-size: 5rem;
+  font-weight: bolder;
+  height: 5px;
+  color: rgb(100, 103, 197);
+  background-color: rgb(100, 103, 197);
+}
+
+.gol{
+  background-color: rgb(98,102,234);
+  height: 130px;
+
+}
+.flex
+{
+  display: flex;
+  padding: 60px 96px ;
+  gap: 200px;
+  /* padding-left: 20px; */
+  color: white;
+}
+.all{
+  background-color: rgb(66,50,194);
+  color: white;
+  width: 70px;
+  text-align: center;
+  height: 40px;
+  border-radius: 40px;
+  /* padding-top: 5px; */
+
+}
+.all p{
+  padding-top: 5px;
+}
+.sp{
+  color: rgb(73,50,194);
+}
